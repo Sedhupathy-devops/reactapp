@@ -3,7 +3,7 @@ pipeline {
      stages {
         stage("Build") {
             steps {
-                 sh "ReactJS/'Javascript Calculator'"
+                 sh "cd ReactJS/'Javascript Calculator'"
                 sh "npm install"
                 sh "npm run build"
             }
